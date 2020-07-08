@@ -57,3 +57,7 @@ def make_great(names):
 magician_names = ['tony', 'john', 'alice', 'elsa']
 show_magician(magician_names)
 make_great(magician_names)
+
+#Unchanged magicians
+make_great(magician_names[:])
+show_magician(magician_names[:])
