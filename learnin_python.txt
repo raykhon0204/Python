@@ -1,0 +1,4 @@
+In Python you can create classes
+In Python you make functions
+In Pyhton you can create list
+In Python you can create dictionary

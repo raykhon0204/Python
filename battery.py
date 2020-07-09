@@ -13,4 +13,6 @@ class Battery():
             range = 270                    
         message = "This car can go approximately " + str(range)        
         message += " miles on a full charge."        
-        print(message)     
+        print(message)    
+
+ 

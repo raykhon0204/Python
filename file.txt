@@ -1,0 +1,12 @@
+at line 1 readline() method takes each line from the file and stores it in a list
+This list then stored in lines, which we can cintinue to work with after the with
+block ends. At line 2 we use a simple for loop to print each line from lines.
+Because each items in lines corresponds to each line in the file, the 
+out put matches the contents of the file exactly
+
+Working with a File's contents
+We start by opening the file and stoting each line of text in a list,
+just as we did in the previous example. At line 1 we create a variable, file_string
+to hold the text of file.txt. We then create a loop that adds each line of text to 
+file_string and remove the newline character from each line 2. At 3 we print 
+this string and also show how long the string is.
