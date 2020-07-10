@@ -21,3 +21,12 @@ while guest != 'q':
     with open('guests.txt', 'a') as guest_file:
         guest_file.write(guest + "\n")
         print("Hello, " + guest + ", welcome to the party!")
+
+poll_active = True
+while poll_active:
+    response = input("Why do you like programming?\n")
+    repeat = input("Would you like to let another person respond? (yes / no) ")
+    with open('devs.txt', 'a') as dev_file:
+        dev_file.write(response + '\n')
+    if repeat == 'no':
+        poll_active = False
