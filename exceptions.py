@@ -71,3 +71,21 @@ def count_words(file_name):
 filenames = ['alice.txt', 'programming.txt', 'guests.txt', 'devs.txt'] 
 for filename in filenames:    
     count_words(filename)   
+
+#try it yourself
+#Addition
+print("Give me two number and I'll add them.")
+print("Enter q to quit the program!")
+while True:
+  first1 = input('\nFirst number: ')
+  if first1 == 'q':
+      break
+  second2 = input("Second number: ")
+  if second2 == 'q':
+      break
+  try:
+     answer = int(first1) + int(second2)
+  except ValueError:
+     print("Please, enter a number, not a letter!")
+  else:
+     print(answer)
